@@ -1,0 +1,57 @@
+body {
+    background-color:antiquewhite;
+    width: 100%;
+}
+
+#about-container h1{
+    color: #3d4380;
+    text-align: center;
+    font-size: 62px;
+    font-weight: bolder;
+}
+
+#about-container h2 {
+    text-align: center;
+    color:#272B4D;
+}
+
+#about-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; /* optional: depends on layout */
+  padding: 5em 2em;
+  min-height: 80vh;
+  color: #fff;
+  text-align: center;
+}
+
+#about-text {
+  margin-top: 5em;
+  color: #3d4380;
+  width: 70%;
+}
+
+#about-text p {
+  font-size:20px;
+}
+
+#projects h3 {
+  color:#272B4D;
+}
+
+#projects-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#project-card {
+  border: 3px solid #3d4380;
+  color:#3d4380;
+  font-size: 1em;
+  margin: 2rem;
+}
