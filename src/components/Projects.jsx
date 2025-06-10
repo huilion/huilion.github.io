@@ -7,7 +7,7 @@ const Projects = () => {
       <h3>Projects</h3>
       <div id="projects-container">
         
-         <Card id="project-card" style={{ width: '23rem' }}>
+         <Card id="project-card" style={{ width: '20rem' }}>
       <Card.Img variant="top" src="src\assets\inkwell.png" />
       <Card.Body>
         <Card.Title>Inkwell</Card.Title>
@@ -17,7 +17,7 @@ const Projects = () => {
         <Button variant="primary" href="https://project3-khouw-6b0b3a3a19a1.herokuapp.com/" target="_blank">Check it out</Button>
       </Card.Body>
     </Card>
-      <Card id="project-card" style={{ width: '23rem' }}>
+      <Card id="project-card" style={{ width: '20rem' }}>
       <Card.Img variant="top" src="src\assets\ischool.png" />
       <Card.Body>
         <Card.Title>iSchool Website</Card.Title>
@@ -27,7 +27,7 @@ const Projects = () => {
         <Button variant="primary" href="https://people.rit.edu/ejk2827/340/p2/" target="_blank">Check it out</Button>
       </Card.Body>
     </Card>
-          <Card id="project-card" style={{ width: '23rem' }}>
+          <Card id="project-card" style={{ width: '20rem' }}>
       <Card.Img variant="top" src="src\assets\fishybusiness.png" />
       <Card.Body>
         <Card.Title>Fishy Business</Card.Title>

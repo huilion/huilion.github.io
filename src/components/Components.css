@@ -6,7 +6,7 @@ body {
 #about-container h1{
     color: #3d4380;
     text-align: center;
-    font-size: 62px;
+    font-size: 4rem;
     font-weight: bolder;
 }
 
@@ -34,7 +34,7 @@ body {
 }
 
 #about-text p {
-  font-size:20px;
+  font-size: 1.5rem;
 }
 
 #projects h3 {
@@ -54,4 +54,40 @@ body {
   color:#3d4380;
   font-size: 1em;
   margin: 2rem;
+}
+
+
+@media (max-width: 768px) {
+  #about-container {
+    padding: 3em 1em;
+    min-height: auto;
+  }
+  
+  #about-text {
+    width: 100%;
+    margin-top: 2em;
+  }
+
+  #about-text p {
+    font-size: 1rem;
+  }
+
+  #projects-container {
+    flex-direction: column; /* stack cards vertically */
+    align-items: stretch;
+  }
+
+  #project-card {
+    width: 80%;
+    margin: 1rem auto;
+    font-size: 0.85em;
+  }
+
+  #about-container h1 {
+    font-size: 2.5rem;
+  }
+
+  #about-container h2 {
+    font-size: 1.5rem;
+  }
 }
