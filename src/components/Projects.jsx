@@ -8,7 +8,7 @@ const Projects = () => {
       <div id="projects-container">
         
          <Card id="project-card" style={{ width: '20rem' }}>
-      <Card.Img variant="top" src="src\assets\inkwell.png" />
+      <Card.Img variant="top" src="https://raw.githubusercontent.com/huilion/huilion.github.io/main/src/assets/inkwell.png" />
       <Card.Body>
         <Card.Title>Inkwell</Card.Title>
         <Card.Text>
@@ -18,7 +18,7 @@ const Projects = () => {
       </Card.Body>
     </Card>
       <Card id="project-card" style={{ width: '20rem' }}>
-      <Card.Img variant="top" src="src\assets\ischool.png" />
+      <Card.Img variant="top" src="https://raw.githubusercontent.com/huilion/huilion.github.io/main/src/assets/ischool.png" />
       <Card.Body>
         <Card.Title>iSchool Website</Card.Title>
         <Card.Text>
@@ -28,7 +28,7 @@ const Projects = () => {
       </Card.Body>
     </Card>
           <Card id="project-card" style={{ width: '20rem' }}>
-      <Card.Img variant="top" src="src\assets\fishybusiness.png" />
+      <Card.Img variant="top" src="https://raw.githubusercontent.com/huilion/huilion.github.io/main/src/assets/fishybusiness.png" />
       <Card.Body>
         <Card.Title>Fishy Business</Card.Title>
         <Card.Text>
